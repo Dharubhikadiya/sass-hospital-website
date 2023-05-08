@@ -1,0 +1,1317 @@
+.top {
+  width: 45px;
+  height: 45px;
+  background-color: rgb(230, 172, 144);
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 9999;
+  border-radius: 5px;
+}
+
+.top i {
+  line-height: 50px;
+}
+
+.toggle a i {
+  color: #221e1c;
+}
+
+.down {
+  background-color: #f0f0f0;
+}
+
+nav {
+  padding: 10px 0;
+  background-color: #f0f0f0;
+}
+nav p {
+  color: #89807c;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+}
+nav .call i {
+  font-size: 15px;
+  color: #5e4f48;
+}
+nav .call span {
+  color: #89807c;
+  font-family: "Poppins";
+  font-size: 12px;
+  color: #5e4f48;
+  padding-right: 10px;
+}
+
+header {
+  background-color: #ffffff;
+  z-index: 99999;
+  padding: 20px;
+}
+header .menu ul li a {
+  color: #5e4f48;
+  font-family: "Poppins";
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 15px;
+  transition: all 0.5s;
+}
+header .menu ul li:hover a {
+  color: rgb(230, 172, 144);
+}
+
+.slider {
+  height: 857px;
+  background-image: url("../img/slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.slider .s-content {
+  padding-top: 250px;
+}
+.slider .s-content h1 {
+  font-size: 75px;
+  color: #ffffff;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0 100px;
+}
+.slider .s-content p {
+  font-size: 36px;
+  color: #8cbcd2;
+  font-family: "Cookie";
+  text-transform: capitalize;
+  text-align: center;
+  padding: 35px 0;
+}
+.slider .s-content button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+.trust .trustimg {
+  height: 691px;
+  background-image: url("../img/section 2.jpg");
+  background-size: cover;
+}
+.trust .trustcontent {
+  background-color: #f0f0f0;
+  padding: 65px 50px;
+}
+.trust .trustcontent h2 {
+  font-size: 37px;
+  font-family: "Libre Baskerville";
+  color: #352219;
+  text-align: center;
+}
+.trust .trustcontent h5 {
+  font-size: 30px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  text-align: center;
+  font-weight: 300;
+  padding: 25px;
+}
+.trust .trustcontent p, .trust .trustcontent .p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  text-align: center;
+}
+.trust .trustcontent .chat {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(230, 172, 144);
+  color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  margin: 25px;
+}
+.trust .trustcontent .chat i {
+  font-size: 25px;
+}
+.trust .trustcontent .chat::after {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 0.6px;
+  background-color: #89807c;
+  left: 0;
+  margin-left: 85px;
+}
+.trust .trustcontent .chat::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 0.6px;
+  background-color: #89807c;
+  right: 0;
+  margin-right: 85px;
+}
+.trust .trustcontent h4 {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 70px;
+  font-weight: 600;
+}
+
+.more {
+  margin: 70px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+.more .services {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  border-radius: 50%;
+  text-align: center;
+  margin: 15px 0;
+}
+.more .services i {
+  font-size: 40px;
+}
+.more h3 {
+  font-size: 20px;
+  font-family: "Libre Baskerville";
+  padding: 15px;
+  transition: all 0.5s;
+}
+.more h3:hover {
+  color: rgb(230, 172, 144);
+}
+.more h6 {
+  font-size: 14px;
+  color: rgb(230, 172, 144);
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.person4 {
+  height: 400px;
+  background-image: url("../img/person4.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.47);
+  background-blend-mode: darken;
+}
+.person4 .s-content {
+  padding-top: 80px;
+}
+.person4 .s-content h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  text-align: center;
+}
+.person4 .s-content p {
+  font-size: 29px;
+  color: #8cbcd2;
+  font-family: "Cookie";
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 0;
+}
+.person4 .s-content button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  border-radius: 0;
+  transition: all 0.5s;
+}
+.person4 .s-content button:hover {
+  background-color: #8cbcd2;
+}
+
+.helpline {
+  width: 90%;
+  padding: 60px 20px;
+  background-color: #322c29;
+}
+.helpline .circle {
+  width: 70px;
+  height: 70px;
+  background-color: #5e4f48;
+  border-radius: 50%;
+}
+.helpline .circle i {
+  font-size: 25px;
+  color: #e6b59e;
+}
+.helpline .health {
+  padding-left: 25px;
+}
+.helpline .health h2 {
+  color: #ECEAE6;
+  font-weight: 300;
+}
+.helpline .health span {
+  color: rgba(236, 234, 230, 0.8039215686);
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.Services {
+  margin: 80px 0;
+  margin-top: 200px;
+}
+.Services .Servicesimg {
+  height: 680px;
+  background-image: url("../img/ladyold.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Services .Servicescontent {
+  padding: 0px 10px;
+}
+.Services .Servicescontent .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.Services .Servicescontent .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.Services .Servicescontent .meeting {
+  padding: 20px 50px;
+  margin: 10px 0;
+}
+.Services .Servicescontent .meeting .meet {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  border-radius: 50%;
+  text-align: center;
+  margin: 15px 0;
+  background-color: #8cbcd2;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 20px;
+  margin-right: 25px;
+}
+.Services .Servicescontent .meeting h3 {
+  font-size: 20px;
+  font-family: "Libre Baskerville";
+  line-height: 30px;
+}
+.Services .Servicescontent .meeting p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  line-height: 25px;
+}
+
+.team {
+  text-align: center;
+  padding: 70px 0;
+}
+.team .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.team .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.team .meetteam {
+  margin: 40px;
+}
+.team .meetteam .doctur1 img {
+  height: 303px;
+}
+.team .meetteam h4 {
+  font-size: 23px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+.team .meetteam h6 {
+  font-size: 30px;
+  font-family: "Cookie";
+  text-transform: capitalize;
+  color: #8cbcd2;
+  font-weight: 500;
+  padding: 5px 0;
+}
+.team button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  width: 237px;
+  transition: all 0.5s;
+}
+.team button:hover {
+  background-color: #8cbcd2;
+}
+
+.couples {
+  height: 420px;
+  background-image: url("../img/couple.jpg");
+  background-size: cover;
+  background-position: top;
+  background-color: rgba(0, 0, 0, 0.373);
+  background-blend-mode: darken;
+}
+.couples .couplecontent {
+  padding-top: 80px;
+}
+.couples .couplecontent h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  text-align: center;
+}
+.couples .couplecontent p {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 0;
+}
+.couples .couplecontent button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  width: 237px;
+  transition: all 0.5s;
+}
+.couples .couplecontent button:hover {
+  background-color: #8cbcd2;
+}
+
+.center {
+  background-color: #ffffff;
+  padding: 80px 40px;
+  text-align: center;
+}
+.center .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.center .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.center .cent {
+  width: 166px;
+  height: 57px;
+  background-color: #8cbcd2;
+  border-radius: 40px;
+  margin: 15px 0;
+}
+.center .cent h4 {
+  color: #ECEAE6;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.center .cen .girlimg {
+  height: 508px;
+  background-image: url("../img/girlgrandfather.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.center .cen .girlimg2 {
+  height: 498px;
+  background-image: url("../img/ladyold.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.center .cen .girlcontent {
+  padding: 50px;
+}
+.center .cen .girlcontent h4 {
+  font-size: 23px;
+  font-family: "Libre Baskerville";
+  padding-bottom: 25px;
+  text-align: left;
+}
+.center .cen .girlcontent p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  line-height: 25px;
+  text-align: left;
+  padding-bottom: 17px;
+}
+.center .cen .girlcontent button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  width: 243px;
+  transition: all 0.5s;
+}
+.center .cen .girlcontent .button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  width: 243px;
+  margin-top: 20px;
+}
+.center .cen .girlcontent button:hover {
+  background-color: #8cbcd2;
+}
+
+.offer {
+  padding: 60px;
+}
+.offer .title {
+  text-align: center;
+}
+.offer .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.offer .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.offer .in-home {
+  text-align: center;
+}
+.offer .in-home .food {
+  padding: 15px 0;
+}
+.offer .in-home .food i {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+.offer .in-home .food:hover i {
+  background-color: #ffffff;
+}
+.offer .in-home h4 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Libre Baskerville";
+  text-align: center;
+  transition: all 0.5s;
+  color: #352219;
+}
+.offer .in-home h4:hover {
+  color: rgb(230, 172, 144);
+}
+.offer .in-home p {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  color: rgb(230, 172, 144);
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 0;
+  padding-bottom: 30px;
+}
+
+.people {
+  height: 599px;
+  background-image: url("../img/people.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.617);
+  background-blend-mode: darken;
+  padding: 80px;
+}
+.people .title {
+  text-align: center;
+  color: #ffffff;
+}
+.people .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.people .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.people p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  line-height: 27px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 30px;
+}
+.people .small {
+  padding-top: 40px;
+}
+.people .smallimg img {
+  height: 78px;
+  border-radius: 50%;
+}
+.people .smallcontent {
+  padding-left: 25px;
+}
+.people .smallcontent span {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.people .smallcontent h6 {
+  font-size: 14px;
+  color: rgb(230, 172, 144);
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.latest {
+  text-align: center;
+  padding: 70px 0;
+}
+.latest .title {
+  padding-bottom: 50px;
+}
+.latest .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.latest .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.latest .news {
+  margin-bottom: 40px;
+}
+.latest .news .first img {
+  height: 231px;
+}
+.latest .news img {
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.latest .news .first {
+  overflow: hidden;
+}
+.latest .news .first:hover img {
+  transform: scale(1.1);
+}
+.latest .news .first:hover img {
+  background-color: black;
+  background-blend-mode: darken;
+}
+.latest .news h4 {
+  font-size: 23px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  padding: 25px 40px;
+  transition: all 0.3s;
+}
+.latest .news h4:hover {
+  color: rgb(230, 172, 144);
+}
+.latest .news p {
+  font-size: 14px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 300;
+  padding: 0 15px 15px 0;
+}
+.latest .news i {
+  color: #89807c;
+  transition: all 0.5s;
+}
+.latest .news a:hover i, .latest .news a:hover span {
+  color: #8cbcd2;
+}
+.latest .news span {
+  font-family: "Poppins";
+  color: #89807c;
+  transition: all 0.5s;
+}
+.latest .news button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  margin-top: 40px;
+  width: 210px;
+  transition: all 0.5s;
+}
+.latest .news button:hover {
+  background-color: #8cbcd2;
+}
+
+.footer {
+  height: 280px;
+  background-color: #322c29;
+}
+.footer .footer .icon4 .icon {
+  width: 42px;
+  height: 42px;
+  background-color: rgba(81, 73, 70, 0.7607843137);
+  border-radius: 50%;
+  color: rgb(230, 172, 144);
+  margin: 0 5px;
+  transition: all 0.5s;
+}
+.footer .footer .icon4 .icon:hover {
+  background-color: rgb(230, 172, 144);
+  color: #ffffff;
+}
+.footer .footer p {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.last {
+  height: 90px;
+  background-color: #221e1c;
+}
+.last .menu ul li a {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0 20px;
+  transition: all 0.5s;
+}
+.last .menu ul li:hover a {
+  color: rgb(230, 172, 144);
+}
+
+.slider2 {
+  height: 350px;
+  background-image: url("../img/slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.slider2 .s-content {
+  padding: 100px 0px;
+}
+.slider2 .s-content h1 {
+  font-size: 70px;
+  color: #ffffff;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  text-align: center;
+}
+.slider2 .s-content p {
+  font-size: 36px;
+  color: #8cbcd2;
+  font-family: "Cookie";
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.choice {
+  text-align: center;
+}
+.choice .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.choice .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.choice .get {
+  padding: 20px;
+  text-align: center;
+}
+.choice .get .circle {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  border-radius: 50%;
+  text-align: center;
+  margin: 15px 0;
+  background-color: #8cbcd2;
+}
+.choice .get .circle span {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 60px;
+}
+.choice .get h2 {
+  text-transform: capitalize;
+  font-family: "Libre Baskerville";
+  font-size: 20px;
+}
+.choice .get p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  padding: 15px 0;
+}
+
+.right {
+  padding: 0 60px;
+}
+.right .title {
+  text-align: center;
+}
+.right .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.right .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.right .in-home {
+  text-align: center;
+  margin: 35px;
+  margin-bottom: 80px;
+}
+.right .in-home .bake {
+  padding: 15px;
+}
+.right .in-home .bake .get {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  border-radius: 50%;
+  text-align: center;
+  margin: 15px 0;
+  background-color: #8cbcd2;
+  transition: all 0.5s;
+  color: #ffffff;
+  font-size: 20px;
+}
+.right .in-home .bake h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Libre Baskerville";
+  text-align: center;
+  transition: all 0.5s;
+  color: #352219;
+  padding-top: 18px;
+}
+.right .in-home .bake h4:hover {
+  color: rgb(230, 172, 144);
+}
+.right .in-home .bake p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  text-align: center;
+  padding: 25px 0;
+  line-height: 25px;
+}
+.right .in-home .bake:nth-child(2) {
+  background-color: #f0f0f0;
+}
+
+.values {
+  padding: 60px;
+}
+.values p {
+  font-family: "Poppins";
+  color: #89807c;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0 30px;
+  line-height: 20px;
+}
+.values .title {
+  text-align: center;
+}
+.values .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.values .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.values .in-home {
+  text-align: center;
+  margin: 0px 30px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.values .in-home .profile {
+  padding: 20px;
+}
+.values .in-home .profile .food {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  border-radius: 50%;
+  text-align: center;
+  margin: 15px 0;
+  transition: all 0.5s;
+}
+.values .in-home .profile .food i {
+  font-size: 40px;
+}
+.values .in-home .profile .food:hover {
+  background-color: #ffffff;
+}
+.values .in-home .profile h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Libre Baskerville";
+  text-align: center;
+  padding-top: 25px;
+  transition: all 0.5s;
+  color: #352219;
+}
+.values .in-home .profile h4:hover {
+  color: rgb(230, 172, 144);
+}
+.values .in-home .profile p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  text-align: center;
+  line-height: 25px;
+  padding-top: 20px;
+}
+.values .in-home button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+}
+
+.trustcontent {
+  padding: 70px 0px;
+}
+.trustcontent h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  color: #352219;
+  text-align: center;
+}
+.trustcontent h5 {
+  font-size: 30px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  text-align: center;
+  font-weight: 300;
+  padding: 25px;
+}
+.trustcontent p, .trustcontent .p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  text-align: center;
+}
+.trustcontent .chat {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(230, 172, 144);
+  color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  margin: 25px auto;
+}
+.trustcontent .chat i {
+  font-size: 25px;
+}
+.trustcontent .chat::after {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 0.6px;
+  background-color: #89807c;
+  left: 0;
+  margin-left: 85px;
+}
+.trustcontent .chat::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 0.6px;
+  background-color: #89807c;
+  right: 0;
+  margin-right: 85px;
+}
+.trustcontent h4 {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 70px;
+  font-weight: 600;
+}
+
+.latest2 {
+  text-align: center;
+}
+.latest2 .news {
+  margin-bottom: 40px;
+}
+.latest2 .news img {
+  height: 243px;
+  transition: all 0.5s;
+}
+.latest2 .news .first {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.latest2 .news .first:hover img {
+  transform: scale(1.1);
+}
+.latest2 .news h4 {
+  font-size: 30px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+  padding: 35px 50px;
+  transition: all 0.3s;
+}
+.latest2 .news h4:hover {
+  color: rgb(230, 172, 144);
+}
+.latest2 .news p {
+  font-size: 14px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  padding: 15px 20px;
+  color: #89807c;
+}
+.latest2 .news .explore {
+  width: 100%;
+  height: 91px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  margin: 50px 0;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 2px;
+}
+.latest2 .news .explore .rou1 {
+  width: 52px;
+  height: 52px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  border-radius: 50%;
+  left: 160px;
+  bottom: 60px;
+  margin: 0 20px;
+}
+.latest2 .news .explore .rou1 i {
+  font-size: 35px;
+}
+.latest2 .news .explore:nth-child(5) {
+  background-color: rgb(230, 172, 144);
+}
+
+.cen2 .girlimg {
+  height: 508px;
+  background-image: url("../img/ladyold.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.cen2 .girlcontent {
+  padding: 50px;
+}
+.cen2 .girlcontent h4 {
+  font-size: 23px;
+  font-family: "Libre Baskerville";
+  padding-bottom: 25px;
+  text-align: left;
+}
+.cen2 .girlcontent p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  line-height: 25px;
+  text-align: left;
+  padding-bottom: 17px;
+}
+.cen2 .girlcontent button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  width: 243px;
+  transition: all 0.5s;
+}
+.cen2 .girlcontent button:hover {
+  background-color: #8cbcd2;
+}
+
+.trust2 {
+  margin: 80px 0;
+}
+.trust2 .trustimg {
+  height: 687px;
+  background-image: url("../img/bg-9-copyright.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.trust2 .trustcontent {
+  background-color: #f0f0f0;
+  padding: 65px 90px;
+}
+.trust2 .trustcontent h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  color: #352219;
+  text-align: center;
+}
+.trust2 .trustcontent h5 {
+  font-size: 30px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  text-align: center;
+  font-weight: 300;
+  padding: 25px;
+}
+.trust2 .trustcontent p, .trust2 .trustcontent .p {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #89807c;
+  text-align: center;
+  line-height: 23px;
+}
+.trust2 .trustcontent .p {
+  padding-top: 30px;
+}
+.trust2 .trustcontent button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  width: 243px;
+  margin-top: 50px;
+}
+
+.contact2 {
+  text-align: center;
+  padding: 70px;
+}
+.contact2 .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.contact2 .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.contact2 .round {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(140, 188, 210, 0.5098039216);
+  border-radius: 50%;
+  text-align: center;
+  margin: 15px 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.contact2 .round i {
+  font-size: 30px;
+  color: rgb(230, 172, 144);
+}
+.contact2 h4 {
+  font-size: 20px;
+  font-family: "Libre Baskerville";
+  color: #322c29;
+  padding-top: 25px;
+}
+.contact2 p {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #89807c;
+  padding: 10px 0;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.contact2 p:hover {
+  color: #8cbcd2;
+}
+.contact2 .line {
+  width: 160px;
+  height: 1.5px;
+  background-color: #89807c;
+  transform: rotate(90deg);
+}
+
+.message {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+.message .title h2 {
+  font-size: 33px;
+  font-family: "Libre Baskerville";
+  text-transform: capitalize;
+}
+.message .title h5 {
+  font-size: 29px;
+  font-family: "Cookie";
+  color: #8cbcd2;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.message .contact-form {
+  height: 524px;
+  padding: 30px;
+}
+.message .contact-form .f-line {
+  margin: 0 auto;
+}
+.message .contact-form .f-line .f-name {
+  margin-bottom: 20px;
+}
+.message .contact-form .f-line .f-name input {
+  width: 356px;
+  height: 65px;
+  background-color: #ECEAE6;
+  border-radius: 30px;
+  padding: 30px;
+  font-size: 18px;
+  border: none;
+  margin: 0 5px;
+  transition: all 0.2s;
+}
+.message .contact-form .f-namee input {
+  width: 500px;
+  height: 280px;
+  background-color: #ECEAE6;
+  border-radius: 30px;
+  border: none;
+  padding: 30px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.message input:hover {
+  background-color: #ffffff;
+  border: 2px solid rgb(230, 172, 144);
+}
+
+p {
+  font-size: 14px;
+  color: #89807c;
+  font-family: "Poppins";
+  padding: 20px 0;
+}
+
+button {
+  width: 195px;
+  height: 63px;
+  background-color: rgb(230, 172, 144);
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  background-color: rgba(81, 73, 70, 0.7607843137);
+  border-radius: 30px;
+}
+
+iframe {
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */

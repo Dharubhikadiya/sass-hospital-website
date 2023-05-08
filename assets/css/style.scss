@@ -1,0 +1,1179 @@
+$navbar:#f0f0f0;
+$text800:#89807c;
+$text900:#5e4f48;
+$darktext:#352219;
+$sky:#8cbcd2;
+$lightsky:#8cbcd282;
+$orange:rgb(230, 172, 144);
+$white:#ffffff;
+$coffy:#322c29;
+$coffylight:#514946c2; 
+$darkcoffy:#221e1c;
+$contact:#ECEAE6;
+$poppins: 'Poppins';
+$libre:'Libre Baskerville';
+$cookie:'Cookie';
+
+@mixin btn{
+        width: 195px;
+        height: 63px;
+        background-color: $orange;
+        font-size: 14px;
+        color: $white;
+        font-family: $poppins;
+        text-transform: uppercase;
+        border: none;
+        font-weight: 500;
+}
+@mixin round{
+        width: 60px;
+        height: 60px;
+        background-color: $lightsky;
+        border-radius: 50%;
+        text-align: center;
+        margin: 15px 0;
+}
+@mixin title{
+    h2{
+        font-size: 33px;
+        font-family: $libre;
+        text-transform: capitalize;
+     }
+     h5{
+        font-size: 29px;
+        font-family: $cookie;
+        color: $sky;
+        font-weight: 300;
+        padding: 15px 0;
+     }
+}
+
+.top {
+    width: 45px;
+    height: 45px;
+    background-color: $orange;
+    color: $white;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9999;
+    border-radius: 5px;
+}
+.top i {
+    line-height: 50px;
+}
+.toggle a i{
+    color: #221e1c;
+}
+.down{
+    background-color: $navbar;
+}
+nav{
+    padding: 10px 0;
+    background-color: $navbar;
+   p{
+        color: $text800;
+        font-family: $poppins;
+        font-size: 14px;
+        font-weight: 500;
+       padding: 0;
+    }
+    .call{
+        i{
+            font-size: 15px;
+            color: $text900;
+        }
+        span{
+            color: $text800;
+            font-family: $poppins;
+            font-size: 12px;
+            color: $text900;
+            padding-right: 10px;
+        }
+    }
+}
+
+header{
+    background-color: $white;
+    z-index: 99999;
+    padding: 20px;
+    .menu{
+        ul{
+            li{
+                a{
+                    color: $text900;
+                    font-family: $poppins;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    padding: 0 15px;
+                    transition: all 0.5s;
+                }                
+            }
+            li:hover a{
+                color: $orange;
+            }
+        }
+    }
+}
+
+.slider{
+    height: 857px;
+    background-image: url('../img/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    .s-content{
+        padding-top: 250px;
+        h1{
+            font-size: 75px;
+            color: $white;
+            font-family: $libre;
+            text-transform: capitalize;
+            text-align: center;
+            padding: 0 100px;
+        }
+        p{
+            font-size: 36px;
+            color: $sky;
+            font-family: $cookie;
+            text-transform: capitalize;
+            text-align: center;
+            padding: 35px 0;
+        }
+       button{
+         @include btn;
+         border-radius: 40px;
+       }
+    }
+}
+
+.trust{
+    .trustimg{
+        height: 691px;
+        background-image: url('../img/section\ 2.jpg');
+        background-size: cover;
+    }
+    .trustcontent{
+        background-color: $navbar;
+        padding: 65px  50px;
+         h2{
+            font-size: 37px;
+            font-family: $libre;
+            color: $darktext;
+            text-align: center;
+        }
+       h5{
+            font-size: 30px;
+            font-family: $cookie;
+            color: $sky;
+            text-align: center;
+            font-weight: 300;
+            padding: 25px;
+        }
+        p,.p{
+            font-size: 14px;
+            font-family: $poppins;
+            color: $text800;
+            text-align: center;
+        }
+        .chat{
+            width: 60px;
+            height: 60px;
+            background-color: $orange;
+            color: $white;
+            border-radius: 50%;
+            position: relative;
+            margin: 25px;
+        }
+        .chat i{
+            font-size: 25px;
+        }
+        .chat::after{
+            content: '';
+            position: absolute;
+            width: 130px;
+            height: 0.60px;
+            background-color: $text800;
+            left: 0;
+            margin-left: 85px;
+        }
+        .chat::before{
+            content: '';
+            position: absolute;
+            width: 130px;
+            height: 0.60px;
+            background-color: $text800;
+            right: 0;
+            margin-right: 85px;
+        }
+        h4{
+            font-size: 25px;
+            text-align: center;
+            padding: 20px 70px;
+            font-weight: 600;
+        }
+    }
+}
+
+.more{
+    margin: 70px 0;
+    padding: 20px 0;
+    text-align: center;
+    .services{
+        @include round;
+       i{
+           font-size: 40px;
+        }
+    }
+    h3{
+        font-size: 20px;
+        font-family: $libre;
+        padding: 15px; 
+        transition: all 0.5s;
+    }
+    h3:hover{
+        color: $orange;
+    }
+    h6{
+        font-size: 14px;
+        color: $orange;
+        font-family: $poppins;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+
+.person4{
+    height: 400px;
+    background-image: url('../img/person4.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.47);
+    background-blend-mode: darken;
+    .s-content{
+        padding-top: 80px;
+         h1{
+            font-size: 30px;
+            color: $white;
+            font-family: $libre;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        p{
+            font-size: 29px;
+            color: $sky;
+            font-family: $cookie;
+            text-transform: capitalize;
+            text-align: center;
+            padding: 30px 0;
+        }
+        button{
+           @include btn;
+           border-radius: 0;
+           transition: all 0.5s;
+        }
+        button:hover{
+            background-color: $sky;
+        }
+    }
+}
+.helpline{
+    width: 90%;
+    padding: 60px 20px;
+    background-color: #322c29;
+    .circle{
+        width: 70px;
+        height: 70px;
+        background-color: #5e4f48;
+        border-radius: 50%;
+        i{
+            font-size: 25px;
+            color: #e6b59e;
+        }
+    }
+    .health {
+        padding-left: 25px;
+        h2{
+            color: #ECEAE6;
+            font-weight: 300;
+        }
+        span{
+            color: #eceae6cd;
+            font-weight: 500;
+            font-family: $poppins;
+        }
+    }
+}
+
+
+.Services{
+    margin: 80px 0;
+    margin-top: 200px;
+    .Servicesimg{
+        height: 680px;
+        background-image: url('../img/ladyold.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .Servicescontent{
+        padding: 0px  10px;
+         .title{
+            @include title;
+         }
+        .meeting{
+            padding: 20px 50px;
+            margin: 10px 0;
+          .meet{
+            @include round;
+            background-color: $sky;
+            color: $white;
+            font-family: $poppins;
+            font-size: 20px;
+            margin-right: 25px;
+            }
+        h3{
+            font-size: 20px;
+            font-family: $libre;
+            line-height: 30px;
+        }
+        p{
+            font-size: 14px;
+            font-family: $poppins;
+            color: $text800;
+            line-height: 25px;
+        }
+    }
+    }
+}
+
+.team{
+    text-align: center;
+    padding: 70px 0;
+    .title{
+        @include title;
+    }
+    .meetteam{
+        margin: 40px;
+       .doctur1 img{
+           height: 303px;
+        }
+        h4{
+            font-size: 23px;
+            font-family: $libre;
+            text-transform: capitalize;
+            padding-top: 20px;
+       }
+        h6{
+            font-size: 30px;
+            font-family: $cookie;
+            text-transform: capitalize;
+            color: $sky;
+            font-weight: 500;
+            padding: 5px 0;
+        }
+    }
+    button{
+        @include btn;
+        width: 237px;
+        transition: all 0.5s;
+    }
+    button:hover{
+        background-color: $sky;
+    }
+}
+
+.couples{
+    height: 420px;
+    background-image: url('../img/couple.jpg');
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.373);
+    background-blend-mode: darken;
+    .couplecontent{
+        padding-top: 80px;
+         h1{
+            font-size: 30px;
+            color: $white;
+            font-family: $libre;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        p{
+            font-size: 15px;
+            color: $white;
+            font-family: $poppins;
+            text-transform: capitalize;
+            text-align: center;
+            padding: 30px 0;
+        }
+        button{
+           @include btn;
+           width: 237px;
+           transition: all 0.5s;
+        }
+        button:hover{
+            background-color: $sky;
+        }
+    }
+}
+
+.center{
+    background-color: $white;
+    padding: 80px 40px;
+    text-align: center;
+   .title{
+        @include title;
+    }
+     .cent{
+        width: 166px;
+        height: 57px;
+        background-color: $sky;
+        border-radius: 40px;
+        margin: 15px 0;
+        h4{
+            color: #ECEAE6;
+            font-size: 14px;
+            font-family: $poppins;
+            font-weight:600;
+            text-transform: uppercase;
+        }
+    }
+    .cen{
+        .girlimg{
+            height: 508px;
+            background-image: url('../img/girlgrandfather.jpg');
+            background-position: center;
+            background-size: cover;
+         }
+         .girlimg2{
+            height: 498px;
+            background-image: url('../img/ladyold.jpg');
+            background-position: center;
+            background-size: cover;
+            }
+         .girlcontent{
+            padding: 50px;
+            h4{
+                font-size: 23px;
+                font-family: $libre;
+                padding-bottom: 25px;
+                text-align: left;
+            }
+            p{
+                font-size: 14px;
+                font-family: $poppins;
+                color: $text800;
+                line-height: 25px;
+                text-align: left;
+                padding-bottom: 17px;
+            }
+            button{
+                @include btn;
+                width: 243px;
+                transition: all 0.5s;
+           }
+           .button{
+            @include btn;
+            width: 243px;
+            margin-top: 20px;
+           }
+           button:hover{
+                background-color: $sky;
+           }
+         }
+    } 
+}
+
+.offer{
+    padding:60px;
+    .title{
+        @include title;
+        text-align: center;
+    }
+    .in-home{
+        text-align: center;
+       
+        .food{
+           padding: 15px 0;
+            i{
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                background-color: $lightsky;
+                font-size: 30px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.5s;
+            }
+        }
+        .food:hover i{
+            background-color: $white;
+        }
+        h4{
+            font-size: 16px;
+            font-weight: 600;
+            font-family: $libre;
+            text-align: center;
+           
+            transition: all 0.5s;
+            color: $darktext;
+        }
+        h4:hover{
+            color: $orange;
+        }
+        p{
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: $poppins;
+            color: $orange;
+            font-weight: 500;
+            text-align: center;
+            padding: 10px 0;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.people{
+    height: 599px;
+    background-image: url('../img/people.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.617);
+    background-blend-mode: darken;
+    padding: 80px;
+    .title{
+        @include title;
+        text-align: center;
+        color: $white;
+    }
+    p{
+        font-size: 16px;
+        color: $white;
+        font-family: $libre;
+        font-style: italic;
+        line-height: 27px;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .small{
+        padding-top: 40px;
+    }
+    .smallimg img{
+        height: 78px;
+        border-radius: 50%;
+    }
+    .smallcontent{
+        padding-left: 25px;
+        span{
+            font-size: 20px;
+            color: $white;
+            text-transform: capitalize;
+        }
+        h6{
+            font-size: 14px;
+            color:$orange;
+            font-family: $poppins;
+            font-weight: 600;
+        }
+    }
+  
+}
+
+.latest{
+    text-align: center;
+    padding: 70px 0;
+    .title{
+        @include title;
+        padding-bottom: 50px;
+    }
+    .news{
+        margin-bottom: 40px;
+       .first img{
+           height: 231px;
+        }
+        img{
+            transition: all 0.5s;
+            overflow: hidden;
+        }
+        .first{
+            overflow: hidden;
+        }
+        .first:hover img{
+            transform: scale(1.1);
+        }
+        .first:hover img{
+            background-color: black;
+            background-blend-mode: darken;
+        }
+        h4{
+            font-size: 23px;
+            font-family: $libre;
+            text-transform: capitalize;
+            padding: 25px 40px;
+            transition: all 0.3s;
+       }
+       h4:hover{
+        color: $orange;
+       }
+        p{
+            font-size: 14px;
+            font-family: $poppins;
+            text-transform: capitalize;
+            font-weight: 300;
+            padding:0 15px 15px 0;
+        }
+        i{
+            color: $text800;
+            transition: all 0.5s;
+        }
+        a:hover i,a:hover span{
+            color: $sky;
+        }
+        span{
+            font-family: $poppins;
+            color: $text800;
+            transition: all 0.5s;
+        }
+        button{
+            @include btn;
+            margin-top: 40px;
+            width: 210px;
+            transition: all 0.5s;
+        }
+        button:hover{
+            background-color: $sky;
+        }
+    }
+    
+}
+
+.footer{
+    height: 280px;
+    background-color: $coffy;
+    .footer{
+        .icon4{
+            .icon{
+                width: 42px;
+                height: 42px;
+                background-color: $coffylight;
+                border-radius: 50%;
+                color: $orange;
+                margin: 0 5px;
+                transition: all 0.5s;
+            }
+            .icon:hover{
+                background-color:$orange;
+                color: $white;
+            }
+        }
+        p{
+            color: $white;
+            font-family: $poppins;
+            font-size: 14px;
+        }
+    }
+}
+.last{
+    height: 90px;
+    background-color: $darkcoffy;
+    .menu{
+       
+        ul{
+            li{
+                a{
+                    color: $white;
+                    font-family: $poppins;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                   padding:0 20px;
+                    transition: all 0.5s;
+                }
+            }
+            li:hover a{
+                color: $orange;
+            }
+        }
+    }
+}
+
+// about
+
+.slider2{
+    height: 350px;
+    background-image: url('../img/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    .s-content{
+        padding: 100px 0px;
+        h1{
+            font-size: 70px;
+            color: $white;
+            font-family: $libre;
+            text-transform: capitalize;
+            text-align: center;
+       
+        }
+        p{
+            font-size: 36px;
+            color: $sky;
+            font-family: $cookie;
+            text-transform: capitalize;
+            text-align: center;
+            padding: 30px 0;
+        }
+    }
+}
+
+.choice{
+    text-align: center;
+    .title{
+        @include title;
+   }
+   .get{
+    padding: 20px;
+    text-align: center;
+        .circle{
+            @include round;
+            background-color: $sky;
+            span{
+                color: $white;
+                font-size: 20px;
+                line-height: 60px;
+            }
+        }
+        h2{
+            text-transform: capitalize;
+            font-family: $libre;
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+            font-family: $poppins;
+            color: $text800;
+            padding: 15px 0;
+        }
+   }
+}
+
+.right{
+    padding: 0 60px;
+    .title{
+        @include title;
+        text-align: center;
+    }
+    .in-home{
+        text-align: center; 
+        margin: 35px;
+        margin-bottom: 80px; 
+        .bake{
+            padding: 15px;
+        .get{
+            @include round;
+            background-color: $sky;
+            transition: all 0.5s;
+            color: $white;
+            font-size: 20px;
+        }
+        h4{
+            font-size: 20px;
+            font-weight: 600;
+            font-family: $libre;
+            text-align: center;
+            transition: all 0.5s;
+            color: $darktext;
+            padding-top: 18px;
+        }
+        h4:hover{
+            color: $orange;
+        }
+        p{
+            font-size: 14px;
+            font-family: $poppins;
+            color: $text800;
+            text-align: center;
+            padding: 25px 0;
+            line-height: 25px;
+        }
+        }
+        .bake:nth-child(2){
+            background-color: $navbar;
+        }
+    }    
+}
+
+.values{
+    padding:60px;
+    p{
+        font-family: $poppins;
+        color: $text800;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px 0 30px;
+        line-height: 20px;
+    }
+    .title{
+        @include title;
+        text-align: center;
+    }
+    .in-home{
+        text-align: center;
+        margin:0px 30px;
+        margin-bottom: 50px;
+        justify-content: center;
+        .profile{
+            padding: 20px;
+        .food{
+            @include round;
+            transition: all 0.5s;
+            i{
+                font-size: 40px;
+            }
+        }
+        .food:hover{
+            background-color: $white;
+        }
+        h4{
+            font-size: 20px;
+            font-weight: 600;
+            font-family: $libre;
+            text-align: center;
+            padding-top: 25px;
+            transition: all 0.5s;
+            color: $darktext;
+        }
+        h4:hover{
+            color: $orange;
+        }
+        p{
+            font-size: 14px;
+            font-family: $poppins;
+            color: $text800;
+            text-align: center;
+            line-height: 25px;
+            padding-top: 20px;
+        }
+    }
+    button{
+        @include btn;
+    }
+    }
+
+ 
+
+}
+
+// services 
+
+.trustcontent{
+    padding: 70px 0px;
+     h2{
+        font-size: 33px;
+        font-family: $libre;
+        color: $darktext;
+        text-align: center;
+    }
+   h5{
+        font-size: 30px;
+        font-family: $cookie;
+        color: $sky;
+        text-align: center;
+        font-weight: 300;
+        padding: 25px;
+    }
+    p,.p{
+        font-size: 14px;
+        font-family: $poppins;
+        color: $text800;
+        text-align: center;
+    }
+    .chat{
+        width: 60px;
+        height: 60px;
+        background-color: $orange;
+        color: $white;
+        border-radius: 50%;
+        position: relative;
+        margin: 25px auto;
+    }
+    .chat i{
+        font-size: 25px;
+    }
+    .chat::after{
+        content: '';
+        position: absolute;
+        width: 130px;
+        height: 0.60px;
+        background-color: $text800;
+        left: 0;
+        margin-left: 85px;
+    }
+    .chat::before{
+        content: '';
+        position: absolute;
+        width: 130px;
+        height: 0.60px;
+        background-color: $text800;
+        right: 0;
+        margin-right: 85px;
+    }
+    h4{
+        font-size: 25px;
+        text-align: center;
+        padding: 20px 70px;
+        font-weight: 600;
+    }
+}
+
+.latest2{
+    text-align: center;
+    .news{
+        margin-bottom: 40px;
+        img{
+          
+            height: 243px;
+            transition: all 0.5s;
+           }
+        .first{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .first:hover img{
+            transform: scale(1.1);
+        }
+        h4{
+            font-size: 30px;
+            font-family: $libre;
+            text-transform: capitalize;
+            padding:35px 50px;
+            transition: all 0.3s;
+       }
+       h4:hover{
+        color: $orange;
+       }
+        p{
+            font-size: 14px;
+            font-family: $poppins;
+            text-transform: capitalize;
+            padding: 15px 20px;
+            color: $text800;
+        }
+       .explore{
+            width: 100%;
+            height: 91px;
+            background-color: $lightsky;
+            margin: 50px 0;
+            font-family: $poppins;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 2px;
+           .rou1{
+                width: 52px;
+                height: 52px;
+                background-color: $lightsky;
+                border-radius: 50%;
+                left: 160px;
+                bottom: 60px;
+                margin: 0 20px;
+                i{
+                    font-size: 35px;
+                }
+            }
+       }
+       .explore:nth-child(5){
+            background-color: $orange;
+       }
+    }
+    
+}
+
+.cen2{
+    .girlimg{
+        height: 508px;
+        background-image: url('../img/ladyold.jpg');
+        background-position: center;
+        background-size: cover;
+     }
+     .girlcontent{
+        padding: 50px;
+        h4{
+            font-size: 23px;
+            font-family: $libre;
+            padding-bottom: 25px;
+            text-align: left;
+        }
+        p{
+            font-size: 14px;
+            font-family: $poppins;
+            color: $text800;
+            line-height: 25px;
+            text-align: left;
+            padding-bottom: 17px;
+        }
+        button{
+            @include btn;
+            width: 243px;
+            transition: all 0.5s;
+       }
+       button:hover{
+            background-color: $sky;
+       }
+     }
+} 
+
+.trust2{
+    margin: 80px 0;
+    .trustimg{
+        height: 687px;
+        background-image: url('../img/bg-9-copyright.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .trustcontent{
+        background-color: $navbar;
+        padding: 65px  90px;
+         h2{
+            font-size: 33px;
+            font-family: $libre;
+            color: $darktext;
+            text-align: center;
+        }
+       h5{
+            font-size: 30px;
+            font-family: $cookie;
+            color: $sky;
+            text-align: center;
+            font-weight: 300;
+            padding: 25px;
+        }
+        p,.p{
+            font-size: 14px;
+            font-family: $poppins;
+            color: $text800;
+            text-align: center;
+            line-height: 23px;
+        }
+        .p{
+            padding-top: 30px;
+        }
+      button{
+        @include btn;
+        width: 243px;
+        margin-top: 50px;
+      }
+    }
+}
+
+.contact2{
+    text-align: center;
+    padding: 70px;
+    .title{
+        @include title;
+        // padding: 30px 0;
+    }
+    .round{
+        @include round;
+        margin: 0 auto;
+        background-color: $white;
+        i{
+            font-size: 30px;
+            color: $orange;
+        }
+    }
+    h4{
+        font-size: 20px;
+        font-family: $libre;
+        color: $coffy;
+        padding-top: 25px;
+    }
+    p{
+        font-size: 16px;
+        font-family: $poppins;
+        color: $text800;
+        padding: 10px 0;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+    p:hover{
+        color: $sky;
+    }
+    .line{
+        width: 160px;
+        height: 1.5px;
+        background-color: $text800;
+        transform: rotate(90deg);
+    }
+}
+
+.message{
+    background-color: $white;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    .title{
+        @include title;
+    }
+    .contact-form{
+        height: 524px;
+        padding: 30px;
+          .f-line{
+            margin: 0 auto;
+            .f-name{
+                margin-bottom: 20px;
+                input{
+                    width: 356px;
+                    height: 65px;
+                    background-color: $contact;
+                    border-radius: 30px;
+                    padding: 30px;
+                    font-size: 18px;
+                    border: none;
+                    margin: 0 5px;
+                    transition: all 0.2s;
+                }
+               
+                }
+                 }
+            .f-namee{
+               input{
+                width: 500px;
+                height: 280px;
+                background-color: $contact;
+                border-radius: 30px;
+                border: none;
+                padding: 30px;
+                margin: 10px 0;
+                font-size: 18px;
+                 }
+                
+                }
+            }
+            input:hover{
+                background-color: $white;
+                border: 2px solid $orange;
+            }
+        }
+        p{
+            font-size: 14px;
+            color: $text800;
+            font-family: $poppins;
+            padding: 20px 0;
+        }
+        button{
+            @include btn;
+            background-color: $coffylight;
+            border-radius: 30px;
+          
+        }
+        iframe{
+            height: 500px;
+        }
+
+
